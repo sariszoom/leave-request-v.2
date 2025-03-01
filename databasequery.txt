@@ -1,0 +1,7 @@
+SELECT PROC_INST_ID_, NAME_, TEXT_ 
+FROM ACT_HI_VARINST
+WHERE NAME_ IN ('name', 'lastname', 'begindate', 'enddate')
+ORDER BY PROC_INST_ID_;
+
+at http://localhost:8080/h2-console 
+with JDBC url: jdbc:h2:file:./camunda-h2-database
