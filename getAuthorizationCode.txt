@@ -1,0 +1,1 @@
+https://accounts.google.com/o/oauth2/auth?scope=https://mail.google.com/&access_type=offline&include_granted_scopes=true&response_type=code&redirect_uri=http://localhost:8080/oauth2callback&client_id=442649516206-chicpsacvssg14aubfg5el1b3nse7qfd.apps.googleusercontent.com
